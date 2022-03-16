@@ -1,0 +1,42 @@
+
+*{;
+
+}
+
+
+.navbarbg {
+	background-color: black;
+}
+
+
+/*remove bg later*/
+.displaypic {
+	background-color: #C0C0C0;
+	height: 350px;
+	width: 20%;
+	background-position: center;
+
+}
+
+.bg-img {
+	background-color: #C0C0C0;
+	height: 350px;
+	width: 80%;
+}
+
+#landing {
+	/*background image property allows us to add a background image from an online source or a local/relative source */
+	background-image: url(https://images.pexels.com/photos/6044820/pexels-photo-6044820.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+	/*strectches the image to cover the full area of the element*/
+	background-size: cover;
+	/*background-repeat: no-repeat to disable the image to repeat especially if it cannot cover the element*/
+	background-repeat: no-repeat;
+	/*background-repeat: allows to center the background image*/
+	background-position: center;
+	/*opacity: .60;*/
+
+	/*transparent background-color*/
+	/*background-color: rgb(250,100,100,.1);*/
+
+
+}
