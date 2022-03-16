@@ -1,42 +1,91 @@
 
-*{;
-
+*{
+	font-family: pt serif;, sans-serif;
+	color:#66fcf1;
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;	
 }
 
 
-.navbarbg {
-	background-color: black;
+body { 
+	background-color: #0b0c10;
 }
 
-
-/*remove bg later*/
-.displaypic {
-	background-color: #C0C0C0;
-	height: 350px;
-	width: 20%;
-	background-position: center;
-
+#brand {
+	color:#66fcf1;
+	font-weight: bold;
 }
 
-.bg-img {
-	background-color: #C0C0C0;
-	height: 350px;
-	width: 80%;
+.navbartxt {
+	color:#66fcf1;
 }
 
-#landing {
-	/*background image property allows us to add a background image from an online source or a local/relative source */
-	background-image: url(https://images.pexels.com/photos/6044820/pexels-photo-6044820.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-	/*strectches the image to cover the full area of the element*/
+/*.navbarbg {
+	background-color: #0b0c10;
+}*/
+
+.row {
+    background-color:#1B1D1E;
+}
+
+@media (min-width:860px) {
+	.one-div {
+        height:1000px;
+    }
+
+    .two-div {
+        height:600px;
+    }
+    .three-div {
+        height:550px;
+    }
+    .four-div {
+    	height: 350px;
+    }
+}
+
+.head-img {
+	height: 400px;
+	width: 100%;
+}
+
+#greetings {
+	background-image: url(https://images.pexels.com/photos/2098428/pexels-photo-2098428.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
 	background-size: cover;
-	/*background-repeat: no-repeat to disable the image to repeat especially if it cannot cover the element*/
 	background-repeat: no-repeat;
-	/*background-repeat: allows to center the background image*/
 	background-position: center;
-	/*opacity: .60;*/
-
-	/*transparent background-color*/
-	/*background-color: rgb(250,100,100,.1);*/
-
-
+	opacity: 1;
 }
+
+.cards {
+	background-color: #0b0c10;
+	display: flex;
+}
+
+.core_tools {
+	width: 80px;
+	height: 80px;
+	border-radius: 80px;
+}
+
+.fa-icons {
+	width: 50px;
+	height: 800px;
+}
+
+#gmap_canvas {
+	
+	height: 45vh;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
