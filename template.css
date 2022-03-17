@@ -1,6 +1,6 @@
 *{
     font-family: pt serif;, sans-serif;
-    color:#66fcf1;
+    color: black;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;    
@@ -8,7 +8,7 @@
 
 
 .row {
-    background-color: yellow;
+    background-color: white;
 }
 
 .row .row>div {
@@ -17,10 +17,18 @@
 }
 
 @media (min-width:768px) {
+    .zero-div {
+        height:250px;
+    }
+    .one-div {
+        height:650px;
+    }
+    
     .two-div {
-        height:300px;
+        height: 850px;
     }
     .three-div {
-        height:450px;
+        height: 850px;
     }
+
 }
