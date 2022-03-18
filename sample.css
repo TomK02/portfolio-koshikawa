@@ -1,55 +1,10 @@
 *{
     font-family: pt serif;, sans-serif;
     color: black;
-    margin: 0;
-    padding: 0;
     scroll-behavior: smooth;    
 }
 
-.greetings {
-    font-family: bebas beue;, sans-serif;
-    font-weight: bold;
-    font-size: 60px;
-    background-color: #9DB8FA;
+.head-img {
+    width: 100%;
+    height: 650px;
 }
-
-.row {
-    background-color: white;
-}
-
-.row .row>div {
-    border:solid 1px black;
-    min-height:150px;
-}
-
-@media (min-width:768px) {
-    .zero-div {
-        height:300px;
-        /*background-image: url(https://images.pexels.com/photos/3861976/pexels-photo-3861976.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        opacity: .9;*/
-    }
-    .one-div {
-        height:650px;
-    }
-    
-    .two-div {
-        height: 850px;
-    }
-    .three-div {
-        height: 850px;
-    }
-
-}
-
-.navbarbg {
-    background-color: #203261;
-    color: whitesmoke;
-
-
-}
-.navbarbg:hover {
-    color: #9DB8FA;
-    
