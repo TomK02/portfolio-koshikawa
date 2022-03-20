@@ -21,32 +21,34 @@
 <body>
 
 <!-- Start of Navbar -->
-	<nav class="navbar navbar-expand-lg navbar-light sticky-top" id="navbarStyle">
-	  <a class="navbar-brand " id="TK" href="#landing"><h1>TK</h1></a>
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
-	  </button>
+	<div class="nav-container sticky-top">
+		<nav class="navbar navbar-expand-lg navbar-light" id="navbarStyle">
+		  <a class="navbar-brand " id="TK" href="#landing"><h1>TK</h1></a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
 
-	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-	    <ul class="navbar-nav ml-auto">
-	      <li class="nav-item">
-	        <a class="nav-link px-3 navbarcustom" href="#landing">Home</a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link px-3 navbarcustom" href="#projects">Project</a>
-	      </li>
-	       <li class="nav-item">
-	        <a class="nav-link px-3 navbarcustom" href="#tools">Tools</a>
-	      </li>
-	       <li class="nav-item">
-	        <a class="nav-link px-3 navbarcustom" href="#contact">Contact</a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link px-3 navbarcustom" href="#message">Message me</a>
-	      </li>
-	    </ul>
-	  </div>
-	</nav>
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav ml-auto">
+		      <li class="nav-item">
+		        <a class="nav-link px-3 navbarcustom" href="#landing">Home</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link px-3 navbarcustom" href="#projects">Project</a>
+		      </li>
+		       <li class="nav-item">
+		        <a class="nav-link px-3 navbarcustom" href="#tools">Tools</a>
+		      </li>
+		       <li class="nav-item">
+		        <a class="nav-link px-3 navbarcustom" href="#contact">Contact</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link px-3 navbarcustom" href="#message">Message me</a>
+		      </li>
+		    </ul>
+		  </div>
+		</nav>
+	</div>
 	<!-- End of Navbar -->
 		<div class="container-xs" id="landing">
 			<div class="parallax"></div>				
@@ -55,24 +57,25 @@
 						<h1 class="success my-0">LET SUCCESS</h1>
 						<h5 class="text-center text my-0">MAKE THE NOISE</h5>
 				</div>
-				<div class="col-12 col-sm-6 zero-div d-flex flex-row mx-auto" > 
-					<div class="col-6 col-sm-6">
-						<h1 class="my-1 pb-3">Hi I'm Tom,</h1>
+				<div class="col-12 col-md-8 col-lg-6 aboutdiv d-sm-flex flex-row-reverse align-items-center mx-auto" > 
+					<div class="py-3 col-12 col-md-6 align-items-end">
+						<img src="https://www.pngkit.com/png/detail/25-258694_cool-avatar-transparent-image-cool-boy-avatar.png" class="img-fluid rounded">	
+					</div>
+					<div class="col-12 col-md-6">
+						<h1 class="mt-4 py-1">Hi I'm Tom,</h1>
 						<p class="aboutMe text-left pr-md-5">I am a petroleum engineer student that aspires to be a software engineer. My goal is to challenge myself in designing my own interactive website.
 						</p>
-						<button type="button" class="btn btn-dark btn-sm mt-3">
+						<button type="button" class="btn btn-dark btn-md mt-3">
 							<a class="button text-decoration-none btn" href="mailto:tomio.koshikawajr@gmail.com" target="_blank">Contact Me</a>
 						</button>	
 					</div>
-					<div class="col-sm-6 justify-content-end">
-						<img src="https://www.pngkit.com/png/detail/25-258694_cool-avatar-transparent-image-cool-boy-avatar.png" class="img-fluid rounded">	
-					</div>
+					
 				</div>
 		</div>
 		<!--End of container  -->
 
 		<!-- Start of project -->
-    <div class="one-div my-5 py-5" id="projects">
+    <div class="projdiv my-5 py-5" id="projects">
     	<h2 class="text-center">My Projects</h2>
    		<div class="card-deck mx-auto mx-md-5 px-md-5">
    		  <div class="col-12 card projects cards">
@@ -103,7 +106,7 @@
    	</div>
 
    	<!-- start of tools -->
-	<div class="col-12 two-div py-5 my-5">
+	<div class="col-12 tooldiv py-5 my-5">
 		<div id="tools">
 	  		<h2 class="text-center pt-3">Tools</h2>
 	        	<div class="d-flex flex-row justify-content-center pt-5">
@@ -127,7 +130,7 @@
 		</div>
 	</div>	
 	  <!-- Start of  Message-->
-	<div class="three-div">
+	<div class="contactdiv">
 		<div class="col-12 col-sm-6 my-md-5 py-md-5 mx-auto">
 			<div class="row">
 				<div class="col-md-6 justify-content-center">
@@ -165,7 +168,7 @@
 
   			<p class="py-0 my-3">info@email.com</p>
 
-	  			<div class="row mx-2 py-4 d-md-flex" id="contact">
+	  			<div class="row mx-2 d-md-flex" id="contact">
 			    	<a href="https://facebook.com" target="_blank">
 			    		<i class="fa-brands fa-facebook fa-icons"></i>
 			    	</a>
@@ -180,13 +183,12 @@
 			    	</a>
 		  		</div>
 			</div>
-  		
 	  	</div>
-	  	<footer class="my-5 py-3" id="foot">	
-	  		<p class="text-center text-black">Tomio Koshikawa</p>	
-	  		<p class="text-center text-black">Handcrafted by me &copy 2022</p>	
+	  	<footer id="foot">	
+	  		<p class="text-center text-black">&copy Tomio Koshikawa 2022</p>	
 	  	</footer>
 	  </div>
+	 
 
 <!-- JS Dependency -->
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

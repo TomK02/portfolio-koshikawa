@@ -1,7 +1,10 @@
 *{
     font-family: 'Titillium Web', sans-serif;
     color: black;
-    scroll-behavior: smooth;    
+    scroll-behavior: smooth;
+    padding: 0;    
+    margin: 0;
+    box-sizing: border-box;
 }
 
 #TK {
@@ -11,9 +14,13 @@
 }
 
 #navbarStyle {
-    background-color: #f4f0ec;  
+    background-color: #f4f0ec;
+    max-width: 1200px 
 }
 
+.nav-container {
+    background-color: #f4f0ec;  
+}
 
 
 .parallax {
@@ -39,7 +46,7 @@
     font-weight: bold;
 }
 
-.zero-div {
+.aboutdiv {
         min-height:450px;
     }
 
@@ -47,7 +54,7 @@
     font-size: 14px;
 }
 
-.one-div {
+.projdiv {
     min-height: 500px;
     background-color: #90e0ef;
     border-radius: 10px solid black;
@@ -66,12 +73,13 @@
     height: 275px;
 }
 
-.two-div {
+.tooldiv {
     min-height: 500px;
 }
 
-.three-div {
-    max-height: 1200px ;
+.contactdiv {
+    min-height: 600px;
+    max-height: 1200px;
     background-color: #90e0ef;
 }
 .core_tools {
@@ -80,8 +88,7 @@
     border-radius: 80px;
 }
 
-#gmap_canvas {
-    
+#gmap_canvas {    
     height: 38vh;
     width: 100%;
 }
@@ -98,5 +105,9 @@
 #foot {
     background-color: #0077b6;
     width: 100%;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px; 
 }
