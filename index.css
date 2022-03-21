@@ -35,14 +35,13 @@
 
 .centertxt {
   position: absolute;
-  top: 27%;
+  top: 28%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .success {
-    font-size: 120px;
-    align-items: right;
+    font-size: 6vmax;
     font-weight: bold;
 }
 
