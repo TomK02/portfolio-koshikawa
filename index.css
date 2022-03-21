@@ -35,13 +35,13 @@
 
 .centertxt {
   position: absolute;
-  top: 25%;
+  top: 27%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .success {
-    font-size: 60px;
+    font-size: 120px;
     align-items: right;
     font-weight: bold;
 }
@@ -51,7 +51,7 @@
     }
 
 .aboutMe {
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .projdiv {
